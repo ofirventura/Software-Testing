@@ -1,0 +1,849 @@
+MuClipse v1.3R2
+MuClipse is running tests...
+For project located in:
+C:/Users/ofir/workspace software testing/Ex2
+Source located in: /src
+Classes located in: /bin
+Results located in: /result
+Tests located in: /src
+Test to run: tau.ex2.CountTest
+With timeout: 4500
+Will run traditional
+Will run class
+------------------------------- 
+ Tests complete! Results:
+Starting with class: tau.ex2.Count
+Final testclass name: tau.ex2.CountTest
+Running against traditional mutants...
+=+=+=+=+=+= METHOD: Count(int) =+=+=+=+=+=
+=+=+=+=+=+= METHOD: int_count() =+=+=+=+=+=
+
+
+==== Generating original results ========================================
+--- Result for test1  :  true
+--- Result for test2  :  true
+--- Result for test3  :  true
+--- Result for test4  :  true
+--- Result for test5  :  true
+
+
+***********| Executing Mutants |*********
+
+
+----------------------------------------------
+AOIS_1
+1 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+0 live, 1 killed. 
+
+
+----------------------------------------------
+AOIS_10
+2 of 66
+-----------------------------------------------
+ - test1 = time_out: more than 4500 seconds     
+------------
+0 live, 2 killed. 
+
+
+----------------------------------------------
+AOIS_11
+3 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<3> but was:<1>     
+------------
+0 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_12
+4 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+1 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_13
+5 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+2 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_14
+6 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+3 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_15
+7 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+4 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_16
+8 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+5 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_17
+9 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+6 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_18
+10 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+7 live, 3 killed. 
+
+
+----------------------------------------------
+AOIS_19
+11 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+7 live, 4 killed. 
+
+
+----------------------------------------------
+AOIS_2
+12 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+7 live, 5 killed. 
+
+
+----------------------------------------------
+AOIS_20
+13 of 66
+-----------------------------------------------
+ - test1 = time_out: more than 4500 seconds     
+------------
+7 live, 6 killed. 
+
+
+----------------------------------------------
+AOIS_21
+14 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+7 live, 7 killed. 
+
+
+----------------------------------------------
+AOIS_22
+15 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+7 live, 8 killed. 
+
+
+----------------------------------------------
+AOIS_23
+16 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+8 live, 8 killed. 
+
+
+----------------------------------------------
+AOIS_24
+17 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+8 live, 9 killed. 
+
+
+----------------------------------------------
+AOIS_25
+18 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+9 live, 9 killed. 
+
+
+----------------------------------------------
+AOIS_26
+19 of 66
+-----------------------------------------------
+ - test1 = time_out: more than 4500 seconds     
+------------
+9 live, 10 killed. 
+
+
+----------------------------------------------
+AOIS_27
+20 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+10 live, 10 killed. 
+
+
+----------------------------------------------
+AOIS_28
+21 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+11 live, 10 killed. 
+
+
+----------------------------------------------
+AOIS_3
+22 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : 3     
+------------
+11 live, 11 killed. 
+
+
+----------------------------------------------
+AOIS_4
+23 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+11 live, 12 killed. 
+
+
+----------------------------------------------
+AOIS_9
+24 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+11 live, 13 killed. 
+
+
+----------------------------------------------
+AOIU_1
+25 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+11 live, 14 killed. 
+
+
+----------------------------------------------
+AOIU_2
+26 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<-1> but was:<1>     
+------------
+11 live, 15 killed. 
+
+
+----------------------------------------------
+AORB_1
+27 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+12 live, 15 killed. 
+
+
+----------------------------------------------
+AORB_2
+28 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+13 live, 15 killed. 
+
+
+----------------------------------------------
+AORB_3
+29 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+14 live, 15 killed. 
+
+
+----------------------------------------------
+AORB_4
+30 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+15 live, 15 killed. 
+
+
+----------------------------------------------
+AORS_1
+31 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+15 live, 16 killed. 
+
+
+----------------------------------------------
+AORS_2
+32 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<-1> but was:<1>     
+------------
+15 live, 17 killed. 
+
+
+----------------------------------------------
+COI_1
+33 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+15 live, 18 killed. 
+
+
+----------------------------------------------
+COI_2
+34 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<2> but was:<1>     
+------------
+15 live, 19 killed. 
+
+
+----------------------------------------------
+COI_3
+35 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+16 live, 19 killed. 
+
+
+----------------------------------------------
+COI_4
+36 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+16 live, 20 killed. 
+
+
+----------------------------------------------
+COI_5
+37 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+16 live, 21 killed. 
+
+
+----------------------------------------------
+COI_6
+38 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+17 live, 21 killed. 
+
+
+----------------------------------------------
+COI_7
+39 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+17 live, 22 killed. 
+
+
+----------------------------------------------
+COR_1
+40 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+17 live, 23 killed. 
+
+
+----------------------------------------------
+COR_2
+41 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+17 live, 24 killed. 
+
+
+----------------------------------------------
+COR_3
+42 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+17 live, 25 killed. 
+
+
+----------------------------------------------
+COR_4
+43 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+17 live, 26 killed. 
+
+
+----------------------------------------------
+LOI_1
+44 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = java.lang.ArrayIndexOutOfBoundsException : 1     
+------------
+17 live, 27 killed. 
+
+
+----------------------------------------------
+LOI_10
+45 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<-2> but was:<1>     
+------------
+17 live, 28 killed. 
+
+
+----------------------------------------------
+LOI_2
+46 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<0> but was:<1>     
+------------
+17 live, 29 killed. 
+
+
+----------------------------------------------
+LOI_4
+47 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+17 live, 30 killed. 
+
+
+----------------------------------------------
+LOI_5
+48 of 66
+-----------------------------------------------
+ - test1 = junit.framework.AssertionFailedError : Counted value expected:<2> but was:<1>     
+------------
+17 live, 31 killed. 
+
+
+----------------------------------------------
+LOI_6
+49 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+18 live, 31 killed. 
+
+
+----------------------------------------------
+LOI_7
+50 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+19 live, 31 killed. 
+
+
+----------------------------------------------
+LOI_8
+51 of 66
+-----------------------------------------------
+ - test1 = java.lang.ArrayIndexOutOfBoundsException : -3     
+------------
+19 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_1
+52 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+20 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_10
+53 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+21 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_11
+54 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+22 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_12
+55 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+23 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_13
+56 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+24 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_14
+57 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+25 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_15
+58 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+26 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_2
+59 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+27 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_3
+60 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+28 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_4
+61 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+29 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_5
+62 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+30 live, 32 killed. 
+
+
+----------------------------------------------
+ROR_6
+63 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+30 live, 33 killed. 
+
+
+----------------------------------------------
+ROR_7
+64 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+31 live, 33 killed. 
+
+
+----------------------------------------------
+ROR_8
+65 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+31 live, 34 killed. 
+
+
+----------------------------------------------
+ROR_9
+66 of 66
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = java.lang.ArrayIndexOutOfBoundsException : -1     
+------------
+31 live, 35 killed. 
+------------------------------
+ Analysis of testcases 
+  test 1  kill  ==> AOIS_1 AOIS_10 AOIS_11 AOIS_2 AOIS_20 AOIS_22 AOIS_24 AOIS_26 AOIS_3 AOIS_4 AOIU_1 AOIU_2 AORS_1 AORS_2 COI_1 COI_2 LOI_10 LOI_2 LOI_4 LOI_5 LOI_8 
+  test 2  kill  ==> LOI_1 
+  test 3  kill  ==> AOIS_19 AOIS_21 AOIS_9 COI_4 COI_5 COI_7 COR_1 COR_2 COR_3 COR_4 ROR_6 ROR_8 ROR_9 
+  test 4  kill  ==> 
+  test 5  kill  ==> 
+--------------------
+Live: 31
+Dead: 35
+Active: 0
+--------------------
+Running against classlevel mutants...
+
+
+==== Generating original results ========================================
+--- Result for test1  :  true
+--- Result for test2  :  true
+--- Result for test3  :  true
+--- Result for test4  :  true
+--- Result for test5  :  true
+
+
+***********| Executing Mutants |*********
+
+
+----------------------------------------------
+JSI_1
+1 of 3
+-----------------------------------------------
+ - test1 = true     
+ - test2 = true     
+ - test3 = true     
+ - test4 = true     
+ - test5 = true     
+------------
+1 live, 0 killed. 
+
+
+----------------------------------------------
+JTD_1
+2 of 3
+-----------------------------------------------
+ - test1 = java.lang.NullPointerException : null     
+------------
+1 live, 1 killed. 
+
+
+----------------------------------------------
+JTI_1
+3 of 3
+-----------------------------------------------
+ - test1 = java.lang.NullPointerException : null     
+------------
+1 live, 2 killed. 
+------------------------------
+ Analysis of testcases 
+  test 1  kill  ==> JTD_1 JTI_1 
+  test 2  kill  ==> 
+  test 3  kill  ==> 
+  test 4  kill  ==> 
+  test 5  kill  ==> 
+--------------------
+Live: 1
+Dead: 2
+Active: 0
+--------------------
+-------------------------------
+Results for class tau.ex2.Count
+-------------------------------
+Live mutants: 32
+Killed mutants: 37
+Mutation Score: 53.0
+Writing to file...
