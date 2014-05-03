@@ -1,0 +1,10 @@
+!SESSION 2014-05-03 17:12:34.555 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.osgi 2 0 2014-05-03 17:12:51.071
+!MESSAGE The plugin "edu.ncsu.muclipse" with the version "1.3.0" and location "reference:file:plugins/edu.ncsu.muclipse_1.3.0.jar" is an old style Eclipse 2.0 plugin with no OSGi bundle manifest.  Support for Eclipse 2.0 style plugins will be removed in a future release. Refer to the migration guide for details.

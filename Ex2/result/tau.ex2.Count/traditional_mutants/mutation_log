@@ -1,0 +1,73 @@
+AORB_1:23:int_count():i - 1 => i * 1
+AORB_2:23:int_count():i - 1 => i / 1
+AORB_3:23:int_count():i - 1 => i % 1
+AORB_4:23:int_count():i - 1 => i + 1
+AORS_1:20:int_count():i++ => i--
+AORS_2:27:int_count():count++ => count--
+AODS_1:27:int_count():count++ => count
+AOIU_1:21:int_count():i => -i
+AOIU_2:30:int_count():count => -count
+AOIS_1:20:int_count():i => ++i
+AOIS_2:20:int_count():i => --i
+AOIS_3:20:int_count():i => i++
+AOIS_4:20:int_count():i => i--
+AOIS_5:20:int_count():numbers.length => ++numbers.length
+AOIS_6:20:int_count():numbers.length => --numbers.length
+AOIS_7:20:int_count():numbers.length => numbers.length++
+AOIS_8:20:int_count():numbers.length => numbers.length--
+AOIS_9:21:int_count():i => i++
+AOIS_10:21:int_count():i => i--
+AOIS_11:22:int_count():x => ++x
+AOIS_12:22:int_count():x => --x
+AOIS_13:22:int_count():x => x++
+AOIS_14:22:int_count():x => x--
+AOIS_15:23:int_count():x => ++x
+AOIS_16:23:int_count():x => --x
+AOIS_17:23:int_count():x => x++
+AOIS_18:23:int_count():x => x--
+AOIS_19:23:int_count():i => ++i
+AOIS_20:23:int_count():i => --i
+AOIS_21:23:int_count():i => i++
+AOIS_22:23:int_count():i => i--
+AOIS_23:23:int_count():i => ++i
+AOIS_24:23:int_count():i => --i
+AOIS_25:23:int_count():i => i++
+AOIS_26:23:int_count():i => i--
+AOIS_27:30:int_count():count => count++
+AOIS_28:30:int_count():count => count--
+ROR_1:23:int_count(): x == -1  =>   x > -1
+ROR_2:23:int_count(): x == -1  =>   x >= -1
+ROR_3:23:int_count(): x == -1  =>   x < -1
+ROR_4:23:int_count(): x == -1  =>   x <= -1
+ROR_5:23:int_count(): x == -1  =>   x != -1
+ROR_6:23:int_count(): i > 0  =>   i >= 0
+ROR_7:23:int_count(): i > 0  =>   i < 0
+ROR_8:23:int_count(): i > 0  =>   i <= 0
+ROR_9:23:int_count(): i > 0  =>   i == 0
+ROR_10:23:int_count(): i > 0  =>   i != 0
+ROR_11:23:int_count(): numbers[i - 1] == -1  =>   numbers[i - 1] > -1
+ROR_12:23:int_count(): numbers[i - 1] == -1  =>   numbers[i - 1] >= -1
+ROR_13:23:int_count(): numbers[i - 1] == -1  =>   numbers[i - 1] < -1
+ROR_14:23:int_count(): numbers[i - 1] == -1  =>   numbers[i - 1] <= -1
+ROR_15:23:int_count(): numbers[i - 1] == -1  =>   numbers[i - 1] != -1
+COR_1:23:int_count(): x == -1 && i > 0  =>   x == -1 || i > 0
+COR_2:23:int_count(): x == -1 && i > 0  =>   x == -1 ^ i > 0
+COR_3:23:int_count(): x == -1 && i > 0 && numbers[i - 1] == -1  =>   x == -1 && i > 0 || numbers[i - 1] == -1
+COR_4:23:int_count(): x == -1 && i > 0 && numbers[i - 1] == -1  =>   (x == -1 && i > 0) ^ numbers[i - 1] == -1
+COI_1:20:int_count(): i < numbers.length  =>  !(i < numbers.length)
+COI_2:22:int_count(): x < 0  =>  !(x < 0)
+COI_3:23:int_count(): x == -1  =>  !(x == -1)
+COI_4:23:int_count(): i > 0  =>  !(i > 0)
+COI_5:23:int_count(): x == -1 && i > 0  =>  !(x == -1 && i > 0)
+COI_6:23:int_count(): numbers[i - 1] == -1  =>  !(numbers[i - 1] == -1)
+COI_7:23:int_count(): x == -1 && i > 0 && numbers[i - 1] == -1  =>  !(x == -1 && i > 0 && numbers[i - 1] == -1)
+LOI_1:20:int_count():i => ~i
+LOI_2:20:int_count():numbers.length => -numbers.length
+LOI_3:20:int_count():i => ~i
+LOI_4:21:int_count():i => ~i
+LOI_5:22:int_count():x => ~x
+LOI_6:23:int_count():x => ~x
+LOI_7:23:int_count():i => ~i
+LOI_8:23:int_count():i => ~i
+LOI_9:27:int_count():count => ~count
+LOI_10:30:int_count():count => ~count
